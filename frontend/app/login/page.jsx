@@ -5,8 +5,7 @@ export default function LoginPage() {
         <>
             <Login />
             <div className="flex justify-center items-center flex-col">
-                <h1>No Account? <a className="text-blue-500" href="../signup">SignUp</a></h1>
-                <h1><a className="text-blue-500" href="../dashboard">Login</a></h1>
+                <h1>No Account? <a className="text-blue-500 dark:text-blue-500" href="../signup">SignUp!</a></h1>
             </div>
         </>
     );
