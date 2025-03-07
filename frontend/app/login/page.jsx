@@ -4,8 +4,10 @@ export default function LoginPage() {
     return (
         <>
             <Login />
-            <h1>No Account? <a className="text-blue-500" href="../signup">SignUp</a></h1>
-            <h1><a href="../dashboard">login</a></h1>
+            <div className="flex justify-center items-center flex-col">
+                <h1>No Account? <a className="text-blue-500" href="../signup">SignUp</a></h1>
+                <h1><a className="text-blue-500" href="../dashboard">Login</a></h1>
+            </div>
         </>
     );
 }

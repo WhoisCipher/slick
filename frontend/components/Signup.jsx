@@ -1,6 +1,5 @@
 export default function SignUp() {
     return (
-
         <form className="max-w-sm mx-auto">
             <div className="mb-5 mt-10">
                 <label htmlFor="username" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username</label>
