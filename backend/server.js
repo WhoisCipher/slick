@@ -25,5 +25,5 @@ app.get("/", (req, res) => {
     res.send("API Up Suckers!");
 });
 
-const PORT = process.env.BACKEND_PORT || 5000;
+const PORT = process.env.BACKEND_PORT || 3000;
 app.listen(PORT, () => console.log(`Server Running on ${PORT}`));
