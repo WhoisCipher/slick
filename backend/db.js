@@ -12,7 +12,9 @@ const dbConfig = {
         encrypt: true,
         trustServerCertificate: true,
     },
+    port: process.env.DB_PORT
 };
+
 export const connection = async () => {
     try {
         const pool = await sql.connect(dbConfig);
