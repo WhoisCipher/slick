@@ -31,7 +31,10 @@ export default function Dashboard() {
 
     return (
         <>
+<<<<<<< Updated upstream
             <Sidebar />
+=======
+>>>>>>> Stashed changes
 
         </>
     );
